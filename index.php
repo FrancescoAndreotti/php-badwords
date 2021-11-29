@@ -1,9 +1,11 @@
 <?php
 $paragrafo = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquid sunt, placeat voluptatibus provident, qui quibusdam cumque repellendus, officia quae dolores cum repudiandae accusantium laudantium debitis eius possimus inventore obcaecati!";
 
-$parola = $_GET["badword"];
+$parola = $_GET["parola"];
 
-$parolaDaSostiruire = str_replace($parola, "***", $paragrafo)
+$parolaDaSostiruire = str_replace($parola, "***", $paragrafo);
+
+var_dump($parola);
 
 ?>
 
